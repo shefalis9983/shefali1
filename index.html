@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blood Bank</title>
+    <link href="bootstrap-5.3.3\dist\css\bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap-5.3.3\dist\js\bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar bg-danger">
+        <div class="container-fluid">
+            <div id="name">
+                <h1>Blood Bank & Donation..</h1>
+            </div>
+            <ul>
+                <a class="navbar-brand btn btn-light" href="#home"><b>Home</b></a>
+                <a class="navbar-brand btn btn-light" href="#about"><b>About</b></a>
+                <a class="navbar-brand btn btn-light" href="#education"><b>Education</b></a>
+                <a class="navbar-brand btn btn-light" href="#donate-blood"><b>Donate-Blood</b></a>
+                <a class="navbar-brand btn btn-light" href="#need-blood"><b>Need-Blood</b></a>
+                <a class="navbar-brand btn btn-light" href="#contact-me"><b>Contact-Me</b></a>
+            </ul>
+            </div>
+      </nav>
+      <section class="Home">
+        <div class="container-fluid">
+            <div class="carousel slide bg-light" data-bs-ride="carousel" id="mydemo">
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-slide-to="0"  data-bs-target="mydemo" type="button"></button>
+                    <button class="" data-bs-slide-to="1"  data-bs-target="mydemo" type="button"></button>
+                    <button class="" data-bs-slide-to="2"  data-bs-target="mydemo" type="button"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="pic 4.jpeg" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="pic6.jpg" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="pic5.jpg" />
+                    </div>
+                </div>
+                <button type="button"class="carousel-control-prev" data-bs-target="#mydemo"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#mydemo"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container-fluid">
+            <div id="about">
+                 <h1 align="center">About</h1><br><br>
+                 <h3 align="justify">
+                    Blood bank is a place where blood bag that is collected form blood donation events is stored in one place.
+                    The term <span style="color:red; background-color: black;">"Blood Bank"</span> refers to a <span style="color:red">'A divison
+                    of hospital laboratory where the storage of blood product occurs and where proper testing is performed to reduce 
+                    the risk of transfusion related events.'</span>The process of managing the blood bag that is received from the 
+                    blood donation events need a proper and systematic management. The blood bag must be handled with care and treated 
+                    thoroughly as it is related to someone's life. The development of web-based Blood Bank And Donation Management System 
+                    (BBDMS) is proposed to provide a management functional to the blood bank in order to handle the blood bag and to make 
+                    entries of the individuals who want to donate blood and who are need.
+                 </h3>
+            </div>
+            <div class="image1">
+               <img src="pic 1.jpeg">
+            </div>
+        </section>
+        <section class="education">
+            <div class="container-fluid">
+                <div id="education">
+                    <h1 align="center">Education</h1><br><br>
+                    <h2>Why Should I Donate Blood ?</h2>
+                    <h3 align="justify"> Blood is the most precious gift that anyone can give to another person-the gift of life.
+                      A decision to donate your blood can save a life, or even several if your blood is separated into its components-
+                    red cells, platelets and plasma - which can be used individually for patients with specific conditions.</h3><br>
+                    <h2>Who Can Donate Blood ?</h2>
+                    <h3 align="justify">
+                        1. Donors are healthy and fit.<br>
+                        2. Weight between 50kg and 158kg.<br>
+                        3. Donors must be at least 18 years old.<br>
+                        4. Donors must not have been treated for rabies or received Hepatitis B immune globulin in the past.<br>
+                        5. Haemoglobin are not less than 12.5 g.<br>
+                        6. Pulse rate between 50 and 100 per minute.<br> 
+                    </h3>
+                    <div class="image2">
+                        <img src="pic 2.jpeg">
+                     </div>
+                </div>
+             </div> 
+         </section>
+         <section class="donate-blood">
+            <div class="container-fluid">
+                <div id="donate-blood">
+                <h1 align="center">Donate-Blood </h1><br><br><br>
+                <div class="form">
+                   <div class="row">
+                      <div class="col-6">
+                        <label>First Name</label>
+                        <input type="text" name="name" placeholder="First Name" class="form-control"><br>
+                        <label><b>DOB:</b></label>
+                        <input type="date" name="name" class="form-control"><br>
+                        <label><b>Gender:</b></label>
+                        <select class="form-select">
+                            
+                            <option selected disabled>-none-</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select><br>
+                        <label><B>Phone Number:</B></label><br>
+                        <input type="number" name="Phone" placeholder="Phone Number" class="form-control">
+                      </div>
+                      <div class="col-6">
+                        <label><b>Last Name:</b></label>
+                        <input type="text" name="name" placeholder="Last Name"  class="form-control"><br>
+                        <label><b>Email ID:</b></label>
+                        <input type="email" name="email" placeholder="Email" class="form-control"><br>
+                        <label><b>Blood Group:</b></label>
+                        <select class="form-select">
+                            <option selected disabled>-none-</option>
+                            <option>A+</option>
+                            <option>B+</option>
+                            <option>AB+</option>
+                            <option>O+</option>
+                            <option>A-</option>
+                            <option>B-</option>
+                            <option>AB-</option>
+                            <option>O-</option>
+                        </select><br>
+                        <label><b>Address:</b></label>
+                        <textarea type="text" name="address" rows="3" class="form-control" placeholder="Address"></textarea><br><br>
+                    </div>
+                   <div id="submit">
+                    <a href="https://wa.me/919983443841?" target="form"><button class="btn btn-success btn btn-lg ">Submit</button></a>
+                   </div>
+                   </div>
+                </div>
+            </div>
+            </div>
+         </section>
+         <section class="need-blood">
+             <div class="container-fluid">
+                 <div id="need-blood">
+                    <h1 align="center">Need-Blood </h1><br><br><br>
+                    <div class="form">
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-4">
+                                <label><b>Name:</b></label>
+                                <input type="text" name="name" placeholder=" Name" class="form-control"><br>
+                                <label><b>DOB:</b></label>
+                                <input type="date" name="name" class="form-control"><br>
+                                <label><b>Gender:</b></label>
+                                <select class="form-select">
+                                    
+                                    <option selected disabled>-none-</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select><br>
+                                <label><b>Blood Group:</b></label>
+                                <select class="form-select">
+                                    <option selected disabled>-none-</option>
+                                    <option>A+</option>
+                                    <option>B+</option>
+                                    <option>AB+</option>
+                                    <option>O+</option>
+                                    <option>A-</option>
+                                    <option>B-</option>
+                                    <option>AB-</option>
+                                    <option>O-</option>
+                                </select><br>
+                                <label><b>Reason, why do you need blood?</b></label>
+                                 <textarea type="text" name="Reason" rows="3" class="form-control" placeholder="Reason"></textarea><br><br>
+                                 <a href="https://wa.me/919983443841?" target="form"><button class="btn btn-success btn btn-lg ">Submit</button></a>
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </section>
+         
+         <section class="contact-me">
+
+            <div class="container-fluid">
+        
+                <div id="contact-me">
+        
+                    <h1 align="center">Contact-Me</h1><br><br>
+        
+                    <div class="form">
+        
+                        <div class="row">
+        
+                            <div class="col-4">
+        
+                                <h2>Send Me A Message</h2><br><br>
+        
+                                <label><b>Full Name:</b></label>
+        
+                                <input type="text" id="name" name="name" placeholder="Full Name" class="form-control"><br>
+        
+                                <label><b>Phone Number:</b></label><br>
+        
+                                <input type="number" id="phone" name="Phone" placeholder="Phone Number" class="form-control"><br>
+        
+                                <label><b>Email Address:</b></label>
+        
+                                <input type="email" id="email" name="email" placeholder="Email" class="form-control"><br>
+        
+                                <label><b>Message:</b></label>
+        
+                                <textarea id="message" name="message" rows="3" class="form-control" placeholder="Message"></textarea><br><br>
+        
+                                <button class="btn btn-success btn-lg" onclick="sendWhatsApp()">Submit</button>
+        
+                            </div>
+        
+                            <div class="col-3"></div>
+        
+                            <div class="col-5">
+        
+                                <h2>Contact Details</h2><br><br><br>
+        
+                                <h3><b>Name:</b> <span style="color: rgb(2, 2, 210);">Shefali Sharma</span></h3><br>
+        
+                                <h3><b>Email Id:</b> <span style="color: rgb(2, 2, 210);">shefalisharma9983@gmail.com</span></h3>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        
+        
+        <script>
+        
+            function sendWhatsApp() {
+        
+                var name = document.getElementById("name").value;
+        
+                var phone = document.getElementById("phone").value;
+        
+                var email = document.getElementById("email").value;
+        
+                var message = document.getElementById("message").value;
+        
+        
+        
+                var whatsappMessage = Hello, my name is ${name}. My phone number is ${phone} and my email is ${email}. Message: ${message};
+        
+                var whatsappURL = https://wa.me/919983443841?text=${encodeURIComponent(whatsappMessage)};
+        
+                
+        
+                window.open(whatsappURL, '_blank');
+        
+            }
+        
+        </script>
+</body>
+</html>

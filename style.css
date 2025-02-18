@@ -1,0 +1,128 @@
+body  {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul
+{
+    margin-top: -50px;
+	margin-bottom: 20px;
+	margin-left: 600px;
+}
+#name h1
+{
+    color:black ;
+	margin-top: 10px;
+	font-style: italic;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.carousel-item img
+{
+	height: 600px;
+	width: 900px;
+	margin-left:300px ;
+	margin-top: 10px;
+	border-radius: 20px;
+	border: 5px solid black;
+}
+.about
+{
+	background:rgb(247, 231, 230) ;
+}
+#about h1
+{
+	font-size: 60px;
+}
+.image1 img
+{
+	height: 600px;
+	width: 700px;
+	margin-left:800px ;
+	margin-top: -550px;
+	border-radius: 20px;
+	border: 5px solid black;
+}
+#about h3
+{
+    margin-right: 750px;
+}
+#education h1
+{
+	font-size: 60px;
+}
+.image2 img
+{
+	height: 650px;
+	width: 650px;
+	margin-left:800px ;
+	margin-top: -700px;
+	border-radius: 20px;
+	border: 5px solid black;
+}
+#education h2
+{
+     font-size: 50px;
+	 font-style: italic;
+	 color: brown;	
+}
+#education h3
+{
+     margin-right: 800px;
+	 margin-left: 50px;
+		
+}
+.donate-blood
+{
+	background:rgb(247, 231, 230) ;
+	height: 700px;
+}
+#donate-blood h1
+{
+	font-size: 60px;
+}
+#submit button
+{
+	font-size: 30px;
+	margin-left: 650px;
+	margin-top :30px;
+	padding-left: 50px;
+	padding-right:50px;
+}
+.need-blood
+{
+	height: 800px;
+}
+#need-blood h1
+{
+	font-size: 60px;
+}
+.col-4 button
+{
+	font-size: 30px;
+	margin-left: 150px;
+	margin-top :30px;
+	padding-left: 50px;
+	padding-right:50px;
+}
+.contact-me
+{
+	background:rgb(247, 231, 230) ;
+	height: 800px;
+}
+#contact-me h1
+{
+	font-size: 60px;
+}
+.icons .fa-brands
+			{
+                  color: black;
+				  font-size: 40px;
+     		}
+			.icons
+			{
+				display: flex;
+				gap: 40px;
+				align-items: center;
+				justify-content: center;
+
+			}
